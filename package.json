@@ -1,0 +1,66 @@
+{
+  "name": "react-movie",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@heroicons/react": "^1.0.6",
+    "@hookform/resolvers": "^3.9.1",
+    "@reduxjs/toolkit": "^2.4.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.9",
+    "chart.js": "^4.4.7",
+    "dayjs": "^1.11.13",
+    "file-saver": "^2.0.5",
+    "json2csv": "^6.0.0-alpha.2",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-circular-progressbar": "^2.1.0",
+    "react-dom": "^18.3.1",
+    "react-error-boundary": "^4.1.2",
+    "react-hook-form": "^7.54.0",
+    "react-icons": "^5.4.0",
+    "react-paginate": "^8.2.0",
+    "react-redux": "^9.1.2",
+    "react-router-dom": "^7.0.1",
+    "react-scripts": "5.0.1",
+    "react-simple-maps": "^3.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^1.3.0",
+    "sass": "^1.82.0",
+    "swiper": "^11.1.15",
+    "swr": "^2.2.5",
+    "uuid": "^11.0.3",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.5.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  }
+}

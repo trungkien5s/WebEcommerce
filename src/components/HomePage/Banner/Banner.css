@@ -1,0 +1,133 @@
+.home-banner {
+    width: 100%;
+    height: 600px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.home-banner-wrap {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-banner-wrap .left-image {
+    width: 28%;
+    height: 100%;
+    border-radius: 10px;
+    background: #E0E0E0;
+    display: flex;
+}
+
+.home-banner-wrap .left-image img {
+    width: 100%;
+    margin-top: 10%;
+}
+
+.home-banner-wrap .mid {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-banner-wrap .mid .top-mid {
+    width: 100%;
+    height: 24%;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #E0E0E0;
+    
+}
+
+.home-banner-wrap .mid .top-mid img {
+    width: 100%;
+}
+
+.home-banner-wrap .mid .bottom-mid {
+    height: 25%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.home-banner-wrap .mid .bottom-mid img {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.home-banner-wrap .right-image {
+    width: 28%;;
+    height: 100%;
+    border-radius: 10px;
+    background: #E0E0E0;
+    display: flex;
+}
+
+.home-banner-wrap .right-image img {
+    width: 100%;
+}
+
+.inner-text-banner {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inner-text-banner h1 {
+    margin: 0;
+    color: #484848;
+    text-align: center;
+    font-size: 112px;
+    font-weight: 500;
+    line-height: 91%;
+    letter-spacing: -7px;
+    font-family: inherit;
+}
+
+.inner-text-banner h2 {
+    /* margin: 0; */
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 130px;
+    text-align: center;
+    font-family: fantasy;
+    color: white;
+    filter: drop-shadow(1px 1px 2px #000);
+    letter-spacing: 5px;
+}
+
+.inner-text-banner button {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: #000;
+    box-shadow: 0px 20px 35px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.inner-text-banner p {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    line-height: normal;
+    letter-spacing: 2px;
+    margin-top: 2rem;
+}
+
+

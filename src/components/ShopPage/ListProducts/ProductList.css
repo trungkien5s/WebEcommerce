@@ -1,0 +1,20 @@
+.list_product_container {
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.list_product_left_content {
+    width: 30%;
+    height: 100%;
+}
+
+.list_product_right_content {
+    width: 69%;
+    height: 100%;
+    background-color: aqua;
+}

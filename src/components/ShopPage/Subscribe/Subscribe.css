@@ -1,0 +1,98 @@
+.sub-container {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.wrap .left-img {
+    width: 25%;
+    height: 600px;
+    aspect-ratio: 1; 
+    position: relative;
+}
+
+.wrap .left-img img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+    position: absolute; 
+    transform: scaleX(-1);
+}
+
+.wrap .main {
+    width: 50%;
+}
+
+.wrap .right-img {
+    width: 40%;
+    height: 600px;
+}
+
+.wrap .right-img img {
+    width: 100%;
+    height: 100%;
+}   
+
+.wrap .mid {
+    padding: 10rem 0px;
+}
+
+.wrap .mid .mid1 {
+    color: #484848;
+    text-align: center;
+    font-family: Volkhov;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.wrap .mid .mid2 {
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 16px;
+    font-family: Poppins;
+    color: #8A8A8A;
+}
+
+.wrap .mid .mid3 {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    height: 40px;
+    background: #FFF;
+    box-shadow: 0px 163px 80px 0px rgba(0, 0, 0, 0.04), 0px 105.648px 46.852px 0px rgba(0, 0, 0, 0.03), 0px 62.785px 25.481px 0px rgba(0, 0, 0, 0.02), 0px 32.6px 13px 0px rgba(0, 0, 0, 0.02), 0px 13.281px 6.519px 0px rgba(0, 0, 0, 0.02), 0px 3.019px 3.148px 0px rgba(0, 0, 0, 0.01);
+}
+
+.wrap .mid .button {
+    display: flex;
+    justify-content: center;
+}
+
+.wrap .mid button {
+    padding: 10px 10px;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #000;
+    box-shadow: 0px 20px 35px 0px rgba(0, 0, 0, 0.15);
+}
+
+.sub_input {
+    width: 80%;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 163px 80px 0px rgba(0, 0, 0, 0.04), 0px 105.648px 46.852px 0px rgba(0, 0, 0, 0.03), 0px 62.785px 25.481px 0px rgba(0, 0, 0, 0.02), 0px 32.6px 13px 0px rgba(0, 0, 0, 0.02), 0px 13.281px 6.519px 0px rgba(0, 0, 0, 0.02), 0px 3.019px 3.148px 0px rgba(0, 0, 0, 0.01);
+}
+

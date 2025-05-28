@@ -1,0 +1,108 @@
+.account-user-container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(249, 249, 249);
+  border-radius: 5px;
+}
+
+.account-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.account-page h3 {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.infor-user h1 {
+  margin-top: 20px;
+  color: #000000;
+  font-family: emoji;
+  font-size: 35px;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+
+.inner-infor-user {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+
+.infor-user p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #000000;
+  font-size: 20px;
+}
+
+.table-order h2 {
+  font-size: 30px;
+  font-family: auto;
+}
+
+.table-order table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.table-order th, td {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  width: 20%;
+}
+
+.table-order img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+
+
+.order-item {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.order-summary p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.order-products table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.order-products th, .order-products td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.order-products th {
+  background-color: #f4f4f4;
+}
+
+.order-products img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}

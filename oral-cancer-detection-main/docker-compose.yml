@@ -1,0 +1,43 @@
+services:
+  # frontend:
+  #   build:
+  #     context: ./demofe
+  #     dockerfile: Dockerfile
+  #   volumes:
+  #     - ./frontend:/app
+  #     - /app/node_modules
+  #   ports:
+  #     - "3000:3000"
+  #   environment:
+  #     - NODE_ENV=development
+  #   command: npm start
+
+  backend:
+    restart: always
+    build:
+      context: ./cancer_detection_api
+      dockerfile: Dockerfile
+    volumes:
+      - ./backend:/app
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    environment:
+      - DATABASE_URL=postgresql://postgres:postgres@db:5432/cancer_detection
+      - SECRET_KEY=skdjafuuify3iwh3fhueiwnjfb3yui2ey7yuik23iue7
+
+  db:
+    image: postgres:17
+    restart: always
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=phamkien12345
+      - POSTGRES_DB=cancer_detection
+    ports:
+      - "5432:5432"
+
+volumes:
+  postgres_data:

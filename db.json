@@ -1,0 +1,421 @@
+{
+  "products": [
+    {
+      "name": "T-shirt Basic White",
+      "price": 200000,
+      "description": "Comfortable cotton white t-shirt.",
+      "category_id": 1,
+      "status": "available",
+      "colors": ["white"],
+      "sizes": ["S", "M", "L", "XL"],
+      "image": "tshirt_basic_white.jpg",
+      "id": 1
+    },
+    {
+      "name": "Jeans Classic Blue",
+      "price": 500000,
+      "description": "Classic straight-leg blue jeans.",
+      "category_id": 2,
+      "status": "available",
+      "colors": ["blue"],
+      "sizes": ["28", "30", "32", "34"],
+      "image": "jeans_classic_blue.jpg",
+      "id": 2
+    },
+    {
+      "name": "Hoodie Black Oversized",
+      "price": 450000,
+      "description": "Soft oversized black hoodie.",
+      "category_id": 3,
+      "status": "available",
+      "colors": ["black"],
+      "sizes": ["M", "L", "XL"],
+      "image": "hoodie_black.jpg",
+      "id": 3
+    },
+    {
+      "name": "Sneakers Running Red",
+      "price": 700000,
+      "description": "Lightweight red running sneakers.",
+      "category_id": 4,
+      "status": "out of stock",
+      "colors": ["red"],
+      "sizes": ["39", "40", "41", "42"],
+      "image": "sneakers_running_red.jpg",
+      "id": 4
+    },
+    {
+      "name": "Formal Shirt Navy",
+      "price": 350000,
+      "description": "Elegant navy formal shirt for men.",
+      "category_id": 5,
+      "status": "available",
+      "colors": ["navy"],
+      "sizes": ["M", "L", "XL", "XXL"],
+      "image": "formal_shirt_navy.jpg",
+      "id": 5
+    },
+    {
+      "name": "Dress Floral Summer",
+      "price": 600000,
+      "description": "Floral summer dress with breathable fabric.",
+      "category_id": 6,
+      "status": "available",
+      "colors": ["pink", "yellow"],
+      "sizes": ["S", "M", "L"],
+      "image": "dress_floral_summer.jpg",
+      "id": 6
+    },
+    {
+      "name": "Cap Sports Blue",
+      "price": 150000,
+      "description": "Stylish blue sports cap.",
+      "category_id": 7,
+      "status": "available",
+      "colors": ["blue"],
+      "sizes": ["One Size"],
+      "image": "cap_sports_blue.jpg",
+      "id": 7
+    },
+    {
+      "name": "Jacket Leather Black",
+      "price": 1200000,
+      "description": "Premium black leather jacket.",
+      "category_id": 8,
+      "status": "available",
+      "colors": ["black"],
+      "sizes": ["M", "L", "XL"],
+      "image": "jacket_leather_black.jpg",
+      "id": 8
+    },
+    {
+      "name": "Skirt Plaid Red",
+      "price": 300000,
+      "description": "Trendy red plaid skirt.",
+      "category_id": 9,
+      "status": "available",
+      "colors": ["red"],
+      "sizes": ["S", "M", "L"],
+      "image": "skirt_plaid_red.jpg",
+      "id": 9
+    },
+    {
+      "name": "Sweater Knit Grey",
+      "price": 400000,
+      "description": "Warm grey knitted sweater.",
+      "category_id": 10,
+      "status": "available",
+      "colors": ["grey"],
+      "sizes": ["M", "L", "XL"],
+      "image": "sweater_knit_grey.jpg",
+      "id": 10
+    },
+    {
+      "name": "Shorts Denim Blue",
+      "price": 250000,
+      "description": "Casual blue denim shorts.",
+      "category_id": 11,
+      "status": "available",
+      "colors": ["blue"],
+      "sizes": ["S", "M", "L"],
+      "image": "shorts_denim_blue.jpg",
+      "id": 11
+    },
+    {
+      "name": "Blouse Chiffon White",
+      "price": 380000,
+      "description": "Elegant white chiffon blouse.",
+      "category_id": 12,
+      "status": "available",
+      "colors": ["white"],
+      "sizes": ["S", "M", "L"],
+      "image": "blouse_chiffon_white.jpg",
+      "id": 12
+    },
+    {
+      "name": "Boots Ankle Black",
+      "price": 900000,
+      "description": "Chic black ankle boots.",
+      "category_id": 13,
+      "status": "out of stock",
+      "colors": ["black"],
+      "sizes": ["36", "37", "38", "39"],
+      "image": "boots_ankle_black.jpg",
+      "id": 13
+    },
+    {
+      "name": "Cardigan Wool Brown",
+      "price": 550000,
+      "description": "Soft brown wool cardigan.",
+      "category_id": 14,
+      "status": "available",
+      "colors": ["brown"],
+      "sizes": ["M", "L", "XL"],
+      "image": "cardigan_wool_brown.jpg",
+      "id": 14
+    },
+    {
+      "name": "Socks Cotton White",
+      "price": 50000,
+      "description": "Comfortable white cotton socks.",
+      "category_id": 15,
+      "status": "available",
+      "colors": ["white"],
+      "sizes": ["One Size"],
+      "image": "socks_cotton_white.jpg",
+      "id": 15
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Giày dép",
+      "image": "https://pomp.store/cdn/shop/articles/znz92h1hor8cdjtqx1cftqeriu6swbs95bqw0f968ck9ujbz_3.jpg?v=1676547961&width=1500"
+    },
+    {
+      "id": 2,
+      "name": "Phụ kiện",
+      "image": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lyhqx3o2grs17b"
+    },
+    {
+      "id": 3,
+      "name": "Trang phục cưới",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwDYsyP0tv4Vf5RDDQKBGdahNXx1wzqpSoNA&s"
+    },
+    {
+      "id": 4,
+      "name": "Bộ sưu tập mùa xuân",
+      "image": "https://hoaigiangshop.com/wp-content/uploads/2017/10/ao-dai-nu-mau-do-ve-hoa-tiet-mua-xuan.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Quần áo thường ngày",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7N9lgie7KH1WPKZZocZwbchE89yOA4zg08w&s"
+    },
+    {
+      "id": 6,
+      "name": "Mũ",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2YOC9gy9NhVPy8wm7dsGGzCzsA38ivngvhA&s"
+    },
+    {
+      "id": 7,
+      "name": "Thời trang nam",
+      "image": "https://vulcano.sgp1.digitaloceanspaces.com/media/19724/mau-ao-thun-nam-tre-trung.jpg"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "account_id": 101,
+      "cart_id": 201,
+      "total_price": 150000,
+      "status": "Đã thanh toán",
+      "created_at": "2025-01-15T03:57:44.887Z"
+    },
+    {
+      "id": 2,
+      "account_id": 102,
+      "cart_id": 202,
+      "total_price": 300000,
+      "status": "Chưa thanh toán",
+      "created_at": "2025-01-14T10:25:30.123Z"
+    },
+    {
+      "id": 3,
+      "account_id": 103,
+      "cart_id": 203,
+      "total_price": 450000,
+      "status": "Đã thanh toán",
+      "created_at": "2025-01-13T09:18:12.456Z"
+    },
+    {
+      "id": 4,
+      "account_id": 104,
+      "cart_id": 204,
+      "total_price": 250000,
+      "status": "Đã thanh toán",
+      "created_at": "2025-01-12T05:47:10.789Z"
+    },
+    {
+      "id": 5,
+      "account_id": 105,
+      "cart_id": 205,
+      "total_price": 380000,
+      "status": "shipped",
+      "created_at": "2025-01-11T14:30:22.567Z"
+    },
+    {
+      "id": 6,
+      "account_id": 106,
+      "cart_id": 206,
+      "total_price": 500000,
+      "status": "delivered",
+      "created_at": "2025-01-10T16:55:40.124Z"
+    },
+    {
+      "id": 7,
+      "account_id": 107,
+      "cart_id": 207,
+      "total_price": 200000,
+      "status": "pending",
+      "created_at": "2025-01-09T08:25:11.456Z"
+    },
+    {
+      "id": 8,
+      "account_id": 108,
+      "cart_id": 208,
+      "total_price": 600000,
+      "status": "shipped",
+      "created_at": "2025-01-08T13:40:55.789Z"
+    },
+    {
+      "id": 9,
+      "account_id": 109,
+      "cart_id": 209,
+      "total_price": 700000,
+      "status": "delivered",
+      "created_at": "2025-01-07T07:12:30.567Z"
+    },
+    {
+      "id": 10,
+      "account_id": 110,
+      "cart_id": 210,
+      "total_price": 850000,
+      "status": "pending",
+      "created_at": "2025-01-06T11:15:44.123Z"
+    }
+  ],
+  "accounts": [
+    {
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@example.com",
+      "phone_number": "1234567890",
+      "address": "123 Main St, Cityville",
+      "date_of_birth": "1990-05-15",
+      "gender": "Male",
+      "password": "password123",
+      "role": false,
+      "id": 1,
+      "created_at": "2025-01-15T03:59:15.602Z"
+    },
+    {
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane.smith@example.com",
+      "phone_number": "0987654321",
+      "address": "456 Oak St, Townsville",
+      "date_of_birth": "1992-08-22",
+      "gender": "Female",
+      "password": "securepass456",
+      "role": false,
+      "id": 2,
+      "created_at": "2025-01-14T11:30:25.603Z"
+    },
+    {
+      "first_name": "Michael",
+      "last_name": "Johnson",
+      "email": "michael.johnson@example.com",
+      "phone_number": "5551234567",
+      "address": "789 Pine St, Villagetown",
+      "date_of_birth": "1985-11-30",
+      "gender": "Male",
+      "password": "strongpassword789",
+      "role": true,
+      "id": 3,
+      "created_at": "2025-01-13T09:05:34.900Z"
+    },
+    {
+      "first_name": "Emily",
+      "last_name": "Davis",
+      "email": "emily.davis@example.com",
+      "phone_number": "6543210987",
+      "address": "123 Elm St, Suburbia",
+      "date_of_birth": "1995-12-01",
+      "gender": "Female",
+      "password": "mypassword321",
+      "role": false,
+      "id": 4,
+      "created_at": "2025-01-12T14:45:16.712Z"
+    },
+    {
+      "first_name": "David",
+      "last_name": "Miller",
+      "email": "david.miller@example.com",
+      "phone_number": "3216549870",
+      "address": "135 Maple St, Greenfield",
+      "date_of_birth": "1988-07-19",
+      "gender": "Male",
+      "password": "mypassword@123",
+      "role": false,
+      "id": 5,
+      "created_at": "2025-01-11T16:00:45.222Z"
+    },
+    {
+      "first_name": "Sophia",
+      "last_name": "Martinez",
+      "email": "sophia.martinez@example.com",
+      "phone_number": "9876543210",
+      "address": "246 Birch St, Riverside",
+      "date_of_birth": "1993-04-10",
+      "gender": "Female",
+      "password": "securepass789",
+      "role": true,
+      "id": 6,
+      "created_at": "2025-01-10T13:25:50.789Z"
+    },
+    {
+      "first_name": "William",
+      "last_name": "Taylor",
+      "email": "william.taylor@example.com",
+      "phone_number": "2345678901",
+      "address": "369 Cedar St, Lakeview",
+      "date_of_birth": "1982-01-30",
+      "gender": "Male",
+      "password": "pass1234word",
+      "role": false,
+      "id": 7,
+      "created_at": "2025-01-09T18:40:12.567Z"
+    },
+    {
+      "first_name": "Olivia",
+      "last_name": "Wilson",
+      "email": "olivia.wilson@example.com",
+      "phone_number": "4321098765",
+      "address": "987 Oakwood Dr, Springdale",
+      "date_of_birth": "1998-09-25",
+      "gender": "Female",
+      "password": "mypassword567",
+      "role": false,
+      "id": 8,
+      "created_at": "2025-01-08T12:55:30.234Z"
+    },
+    {
+      "first_name": "James",
+      "last_name": "Brown",
+      "email": "james.brown@example.com",
+      "phone_number": "6789012345",
+      "address": "555 Redwood Ave, Hilltown",
+      "date_of_birth": "1986-06-11",
+      "gender": "Male",
+      "password": "strongpass678",
+      "role": true,
+      "id": 9,
+      "created_at": "2025-01-07T17:15:22.101Z"
+    },
+    {
+      "first_name": "Charlotte",
+      "last_name": "Jackson",
+      "email": "charlotte.jackson@example.com",
+      "phone_number": "7654321098",
+      "address": "654 Pinewood Ln, Seaside",
+      "date_of_birth": "1994-03-05",
+      "gender": "Female",
+      "password": "charlottepass910",
+      "role": false,
+      "id": 10,
+      "created_at": "2025-01-06T19:10:33.500Z"
+    }
+  ]
+
+}

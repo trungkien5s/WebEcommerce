@@ -1,0 +1,39 @@
+
+.head-home-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-home-wrap .logo {
+    font-weight: 400;
+    color: #484848;
+    font-family: Volkhov;
+    font-size: 52px;
+}
+
+.head-home-wrap .inner-list ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.head-home-wrap .inner-list ul li{
+    margin-left: 70px;
+    margin-right: 10px;
+}
+.head-home-wrap .inner-list ul li a {
+    color: #484848;
+    font-family: Poppins;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.home-signup-button {
+    padding: 10px 35px;
+    font-size: 18px;
+}

@@ -1,0 +1,12 @@
+{
+  "settings": [
+    {
+      "id": "1",
+      "siteName": "Trang web mặc sssđịnh",
+      "email": "admin@example.com",
+      "timeZone": "UTC",
+      "language": "en",
+      "theme": "light"
+    }
+  ]
+}

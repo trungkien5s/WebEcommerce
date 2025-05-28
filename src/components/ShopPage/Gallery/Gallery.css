@@ -1,0 +1,92 @@
+
+.g-top {
+    color: #484848;
+    margin-top: 30px;
+    text-align: center;
+    font-family: Volkhov;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.g-container p {
+    margin-top: 10px;
+    margin-left: 34%;
+    margin-right: 34%;
+    color: #8A8A8A;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
+
+.g-container .list-img {
+    height: 300px;
+    margin-top: 90px;
+    display: flex;
+}
+
+.g-container .list-img .g1-img {
+    width: 16.75%;
+    height: 95%;
+    overflow: hidden;
+    
+}
+
+.g-container .list-img .g1-img img {
+    width: 100%;
+    clip-path: inset(20px 0px 0px 0px); /* Cắt phần ảnh */
+    /* position: relative; */
+}
+
+.g-container .list-img .g2-img {
+    width: 13.3%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.g-container .list-img .g2-img img {
+    width: 100%;
+}
+
+.g-container .list-img .g3-img {
+    width: 13.3%;
+    height: 100%;
+}
+
+.g-container .list-img .g3-img img {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.g-container .list-img .g5-img {
+    width: 13.3%;
+    
+}
+
+.g-container .list-img .g5-img img {
+    width: 100%;
+    margin-top: 40px;
+    clip-path: inset(0px 0px 95px 0px);
+}
+
+.g-container .list-img .g6-img {
+    width: 13.3%;
+}
+.g-container .list-img .g6-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.g-container .list-img .g7-img {
+    width: 16.75%;
+}
+
+.g-container .list-img .g7-img img {
+    width: 100%;
+    margin-top: 20px;
+    height: 90%;
+}

@@ -1,0 +1,27 @@
+.logo-container {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.logo-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo-wrap .chanel {
+    width: 19%;
+}
+
+.logo-wrap .ck {
+    width: 17%;
+}
+
+.logo-wrap img {
+    width: 100%;
+
+}
